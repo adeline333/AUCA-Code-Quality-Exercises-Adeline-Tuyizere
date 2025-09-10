@@ -8,7 +8,7 @@
 //   var average = sum / count;
 //   return average;
 // }
-function calculateAverage(numbers) {
+const calculateAverage=(numbers=[]) =>{
 if(numbers.length==0) return 0;
 let sum=0;
 numbers.map(num=>sum+=num)
@@ -17,4 +17,3 @@ return sum/numbers.length;
 
 
 
-console.log(calculateAverage([10, -10, 20]));//
