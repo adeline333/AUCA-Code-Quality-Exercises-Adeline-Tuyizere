@@ -10,4 +10,3 @@
 const  greet =(name="")=>{
 return name? `hello, ${name}`:"hello"
 }
-console.log(greet())
