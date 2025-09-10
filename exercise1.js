@@ -8,12 +8,14 @@
 //   var average = sum / count;
 //   return average;
 // }
+
 const calculateAverage=(numbers=[]) =>{
 if(numbers.length==0) return 0;
 let sum=0;
 numbers.map(num=>sum+=num)
 return sum/numbers.length;
 }
+
 
 
 
